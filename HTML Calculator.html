@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			HTML CALCULATOR
+		</title>
+	</head>
+	<body>
+		<form name="wap">
+			<table width="500" height="500"  align="center">
+				<caption>
+					<font face="century gothic">
+						HTML CALCULATOR
+					</font>
+				</caption>
+				<tr>
+					<td colspan="4" align="center">
+						<input name="result"  size="40" >
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<input type="button" Value="1" name=""  size="2" onclick="document.wap.result.value+=1 " >
+					</td>
+					<td align="center">
+						<input type="button" Value="2" name=""  size="2" onclick="document.wap.result.value+=2 ">
+					</td>
+					<td align="center">
+						<input type="button" Value="3" name=""  size="2" onclick="document.wap.result.value+=3 ">
+					</td>
+					<td align="center">
+						<input type="button" Value="+" name=""  size="2" onclick="document.wap.result.value+='+' ">
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<input type="button" Value="4" name=""  size="2" onclick="document.wap.result.value+=4 ">
+					</td>
+					<td align="center">
+						<input type="button" Value="5" name=""  size="2" onclick="document.wap.result.value+=5 ">
+					</td>
+					<td align="center">
+						<input type="button" Value="6" name=""  size="2" onclick="document.wap.result.value+=6 ">
+					</td>
+					<td align="center">
+						<input type="button" Value="-" name=""  size="2" onclick="document.wap.result.value+='-' ">
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<input type="button" Value="7" name=""  size="2" onclick="document.wap.result.value+=7 ">
+					</td>
+					<td align="center">
+						<input type="button" Value="8" name=""  size="2" onclick="document.wap.result.value+=8 ">
+					</td >
+					<td align="center">
+						<input type="button" Value="9" name=""  size="2" onclick="document.wap.result.value+=9 ">
+					</td>
+					<td align="center">
+						<input type="button" Value="*" name=""  size="2" onclick="document.wap.result.value+='*' ">
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<input type="button" Value="/" name=""  size="2" onclick="document.wap.result.value+='/' ">
+					</td>
+					<td align="center">
+						<input type="button" Value="." name=""  size="2" onclick="document.wap.result.value+='.' ">
+					</td>
+					<td align="center">
+						<input type="button" Value="0" name=""  size="2" onclick="document.wap.result.value+=0 ">
+					</td>
+					<td align="center">
+						<input type="button" Value="=" name=""  size="2" onclick="document.wap.result.value=eval(document.wap.result.value)  ">
+					</td>
+					<td align="center">
+						<input type="reset" Value="Reset" name=""  size="2" >
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
